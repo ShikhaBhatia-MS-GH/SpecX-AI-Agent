@@ -1,0 +1,3 @@
+# SpecX AI Agent – Instruction Block
+
+<PASTE FULL INSTRUCTIONS FROM COPILOT STUDIO HERE>
