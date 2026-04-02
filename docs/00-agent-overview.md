@@ -31,6 +31,81 @@ Typical questions the agent can help with:
 - “What are common gaps partners should watch for?”
 
 ---
+## Agent Architecture (Parent and Child Agents)
+
+
+The SpecX AI Agent is implemented as a **multi‑agent declarative architecture**
+within Microsoft Copilot Studio.
+
+This architecture consists of:
+
+- **SpecX AI Agent** – the parent (orchestrator) agent  
+- **Audit Agent** – a child agent focused on audit‑specific depth
+
+Users interact only with the **SpecX AI Agent**, which acts as the single
+entry point for all conversations.
+
+---
+
+### SpecX AI Agent (Parent Agent)
+
+The SpecX AI Agent serves as the **primary orchestrator** and is responsible for:
+
+- Receiving and managing user conversations
+- Maintaining conversational context
+- Handling high‑level specialization and readiness queries
+- Determining when deeper audit‑specific expertise is required
+- Routing relevant queries to the Audit Agent when appropriate
+
+The parent agent ensures consistent tone, scope control, and guardrails
+across all interactions.
+
+---
+
+### Audit Agent (Child Agent)
+
+The Audit Agent is a **specialized child agent** that supports the SpecX AI Agent
+by handling **deep, audit‑focused queries**, such as:
+
+- Detailed questions about audit expectations
+- Evidence‑level reasoning and explanations
+- Specialization‑specific audit scenarios grounded in documentation
+
+The Audit Agent operates only in the context of the SpecX AI Agent and is not
+directly exposed to end users.
+
+Conversation history is passed from the SpecX AI Agent to the Audit Agent to
+ensure responses remain contextual and relevant.
+
+---
+
+### How the agents work together
+
+At a high level:
+
+1. A user asks a question to the SpecX AI Agent
+2. The SpecX AI Agent evaluates the intent and depth of the query
+3. If the question requires deeper audit‑specific reasoning, the SpecX AI Agent
+   invokes the Audit Agent
+4. The Audit Agent provides a grounded, detailed response
+5. The SpecX AI Agent returns the response to the user in a consistent,
+   partner‑friendly manner
+
+This design enables both **breadth and depth** while preserving clear scope
+boundaries and responsible behavior.
+
+---
+
+### Architectural boundaries and intent
+
+Even with a child Audit Agent:
+
+- No agent provides audit guarantees or pass/fail outcomes
+- No agent replaces official audit guidance or documentation
+- All responses remain advisory and guidance‑oriented
+
+This multi‑agent structure improves clarity and depth without changing the
+declarative, governance‑friendly nature of the solution.
 
 ## What the SpecX AI Agent is NOT designed to do
 
