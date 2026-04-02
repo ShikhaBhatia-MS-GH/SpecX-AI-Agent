@@ -23,6 +23,17 @@ For declarative agents like SpecX, well-designed starter prompts are especially
 important because there are no actions or workflows to guide the experience.
 
 ---
+### Relationship to the Audit Agent
+
+Starter prompts are configured only on the **SpecX AI Agent**.
+However, certain prompts—especially Levels 2 and 3—are designed to
+trigger deeper, audit‑specific reasoning.
+
+In such cases, the SpecX AI Agent may internally delegate the query to
+the **Audit Agent** while preserving context and guardrails.
+
+Users remain unaware of this delegation and experience a single,
+seamless interaction.
 
 ## Where the actual starter prompts live
 
