@@ -1,7 +1,7 @@
 # Prerequisites – SpecX AI Agent (Declarative)
 
 This section outlines **all prerequisites** required before building the
-**SpecX AI Agent** using **Copilot Studio (declarative approach only)**.
+**SpecX AI Agent** using **Copilot Studio**.
 
 Please review and complete all steps before proceeding to agent creation.
 
