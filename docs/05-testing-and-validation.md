@@ -112,6 +112,19 @@ Assess whether responses are:
 
 Tone issues typically indicate instruction or prompt refinement is needed.
 
+### 6. Parent–Child agent routing behavior
+
+In addition to validating response quality, testing must confirm that
+queries are handled by the appropriate agent.
+
+Validation should confirm that:
+- High‑level readiness questions are handled by the SpecX AI Agent
+- Deep, audit‑specific questions are routed to the Audit Agent
+- Conversation context is preserved across agent hand‑offs
+- Responses remain consistent in tone and guardrails
+
+Testing should include prompts that are intentionally borderline between
+guidance and audit depth to confirm correct delegation.
 ---
 
 ## Recommended testing approach
