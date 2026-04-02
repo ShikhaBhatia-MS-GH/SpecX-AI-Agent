@@ -39,6 +39,10 @@ Publishing makes the agent:
 
 The SpecX AI Agent is intended to be shared **in a controlled manner**, based on
 partner readiness and governance expectations.
+The SpecX AI Agent is the only agent that is published or shared.
+
+The Audit Agent operates as an internal child agent invoked by SpecX
+and is not shared, published, or accessed independently.
 
 ### Recommended sharing practices
 
@@ -107,6 +111,8 @@ Owners of the SpecX AI Agent should ensure:
 - Sharing aligns with organizational policies
 - Users understand the agent’s purpose and limitations
 
+Any governance, review, or ownership applies to the entire
+parent–child agent setup, not to individual agents in isolation.
 ---
 
 ## Relationship to other files
