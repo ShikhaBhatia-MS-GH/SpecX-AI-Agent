@@ -62,3 +62,29 @@ Agent Description:
 
 Agent Purpose (optional, if noted separately):
 <OPTIONAL – short summary of intended use>
+
+
+## Audit Agent – child agent configuration
+
+In addition to the parent SpecX AI Agent, this solution includes a
+**child agent named Audit Agent**.  
+The Audit Agent is used to handle **deep, audit‑specific and evidence‑level
+queries** and is invoked only by the SpecX AI Agent.
+
+Users do **not** interact with the Audit Agent directly.
+
+---
+
+### Audit Agent – basic configuration details
+
+📍 **Where to find this in Copilot Studio:**  
+Copilot Studio → Open SpecX AI Agent → **Agents** → Select **Audit Agent** → Details
+
+👉 Copy the values used and paste them below for reference.
+
+```text
+Audit Agent Name:
+<PASTE FROM COPILOT STUDIO – Agent name>
+
+Audit Agent Description:
+<PASTE FROM COPILOT STUDIO – Agent description>
