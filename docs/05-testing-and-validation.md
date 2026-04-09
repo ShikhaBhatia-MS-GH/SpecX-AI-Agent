@@ -123,8 +123,19 @@ Validation should confirm that:
 - Conversation context is preserved across agent hand‑offs
 - Responses remain consistent in tone and guardrails
 
+
 Testing should include prompts that are intentionally borderline between
-guidance and audit depth to confirm correct delegation.
+readiness guidance and audit‑specific depth to confirm correct routing
+between the SpecX AI Agent and the Audit Agent.
+
+---
+
+## Recommended testing approach
+
+### Step 1: Use the SpecX starter prompt packs
+
+Start testing using the curated prompt packs stored under:
+
 ---
 
 ## Recommended testing approach
@@ -132,3 +143,7 @@ guidance and audit depth to confirm correct delegation.
 ### Step 1: Use the SpecX prompt packs
 
 Start testing using the curated prompt packs stored under:
+samples/starter-prompts/
+├─ level-1-foundational.md
+├─ level-2-evidence-coach.md
+└─ level-3-audit-ready.md
