@@ -55,10 +55,10 @@ Copilot Studio → Create new agent → **Configure** tab (top section)
 
 ```text
 Agent Name:
-<PASTE FROM COPILOT STUDIO – Agent name>
+SpecX AI Agent
 
 Agent Description:
-<PASTE FROM COPILOT STUDIO – Agent description>
+A smart Specialization Coach guiding you through audit readiness, evidence preparation, and faster specialization achievement. It delivers instant, accurate responses so that you can progress confidently and reduce turnaround time.
 
 Agent Purpose (optional, if noted separately):
 <OPTIONAL – short summary of intended use>
@@ -84,7 +84,7 @@ Copilot Studio → Open SpecX AI Agent → **Agents** → Select **Audit Agent**
 
 ```text
 Audit Agent Name:
-<PASTE FROM COPILOT STUDIO – Agent name>
+Audit Agent
 
 Audit Agent Description:
-<PASTE FROM COPILOT STUDIO – Agent description>
+Helps answer audit-related queries for Microsoft Azure Partner Specializations by referencing grounded PDF documents for each specialization and providing detailed responses.
