@@ -88,3 +88,28 @@ Audit Agent
 
 Audit Agent Description:
 Helps answer audit-related queries for Microsoft Azure Partner Specializations by referencing grounded PDF documents for each specialization and providing detailed responses.
+
+
+### SpecX AI Agent – knowledge sources inventory
+
+📍 Where to find this in Copilot Studio:
+Copilot Studio → SpecX AI Agent → Knowledge
+
+List all audit‑focused knowledge sources configured for the agent.
+
+Knowledge Source 1:
+- Type: Public Website
+- Name: https://partner.microsoft.com/en-US/partnership/
+
+Knowledge Source 2:
+- Type: Public Website
+- Name: https://partner.microsoft.com/en-us/blog
+
+Knowledge Source 3:
+- Type: Public Website
+- Name: https://techcommunity.microsoft.com/category/PartnerCommunity
+
+Knowledge Source 4:
+- Type: Public Website
+- Name: https://partner.microsoft.com/en-us/explore/
+
