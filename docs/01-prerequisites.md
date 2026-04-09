@@ -113,3 +113,7 @@ Knowledge Source 4:
 - Type: Public Website
 - Name: https://partner.microsoft.com/en-us/explore/
 
+Also Download the relevant specialization audit checklist PDFs from the Microsoft Partner Center Specializations page and upload them to the Audit Agent under the Knowledge section.
+https://partner.microsoft.com/en-US/partnership/specialization
+
+
