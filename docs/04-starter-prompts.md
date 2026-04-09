@@ -38,3 +38,10 @@ seamless interaction.
 ## Where the actual starter prompts live
 
 The **actual starter prompt text** used for the SpecX AI Agent is stored under:
+samples/starter-prompts/
+├─ level-1-foundational.md
+├─ level-2-evidence-coach.md
+└─ level-3-audit-ready.md
+
+Each file contains raw, copy‑paste–ready prompts that can be added
+directly to the **Starter prompts** section in Copilot Studio.
